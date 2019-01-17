@@ -1,3 +1,0 @@
-﻿1. Charge wihtout supplying planid
-2. Call create subscription endpoint supply the customer_email or code, planid and start date
-3

@@ -6,4 +6,5 @@ Check the complete step by step tutorial in: http://www.developerslearnit.com/20
 
 * Clone this repo
 * Change the connectionstring in the web.config
+* Change the paystack key to yours in the AppSettings
 * Run Update-Database command

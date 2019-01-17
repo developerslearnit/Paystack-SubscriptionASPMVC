@@ -1,0 +1,15 @@
+C:\dev\WebTuts\PaystackDirectDebit\App.Repo\bin\Debug\App.Repo.dll.config
+C:\dev\WebTuts\PaystackDirectDebit\App.Repo\bin\Debug\App.Repo.dll
+C:\dev\WebTuts\PaystackDirectDebit\App.Repo\bin\Debug\App.Repo.pdb
+C:\dev\WebTuts\PaystackDirectDebit\App.Repo\bin\Debug\App.Domain.dll
+C:\dev\WebTuts\PaystackDirectDebit\App.Repo\bin\Debug\EntityFramework.dll
+C:\dev\WebTuts\PaystackDirectDebit\App.Repo\bin\Debug\EntityFramework.SqlServer.dll
+C:\dev\WebTuts\PaystackDirectDebit\App.Repo\bin\Debug\App.Domain.pdb
+C:\dev\WebTuts\PaystackDirectDebit\App.Repo\bin\Debug\App.Domain.dll.config
+C:\dev\WebTuts\PaystackDirectDebit\App.Repo\bin\Debug\EntityFramework.xml
+C:\dev\WebTuts\PaystackDirectDebit\App.Repo\bin\Debug\EntityFramework.SqlServer.xml
+C:\dev\WebTuts\PaystackDirectDebit\App.Repo\obj\Debug\App.Repo.csprojAssemblyReference.cache
+C:\dev\WebTuts\PaystackDirectDebit\App.Repo\obj\Debug\App.Repo.csproj.CoreCompileInputs.cache
+C:\dev\WebTuts\PaystackDirectDebit\App.Repo\obj\Debug\App.Repo.csproj.CopyComplete
+C:\dev\WebTuts\PaystackDirectDebit\App.Repo\obj\Debug\App.Repo.dll
+C:\dev\WebTuts\PaystackDirectDebit\App.Repo\obj\Debug\App.Repo.pdb

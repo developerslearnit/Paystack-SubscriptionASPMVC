@@ -1,0 +1,161 @@
+﻿
+@{
+    ViewBag.Title = "Subscription";
+}
+
+<style>
+    body {
+        background: #eee;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-12">
+        <h1 style="text-align:center">
+            Simple pricing. No hassle.
+        </h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title">
+                    Customer Details
+                </h2>
+            </div>
+
+            <div class="panel-body">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="firstName">First name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="First name">
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email address">
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="phone">Phone No</label>
+                                <input type="text" class="form-control" id="phone" placeholder="Mobile Phone">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Purchase Summary</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div style="padding:10px 0" class="row">
+                                <div class="col-md-2">
+                                    Plan:
+                                </div>
+                                <div class="col-md-10">
+                                    <span style="text-align:right;float:right">
+                                        @ViewBag.planName
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <div style="border-bottom:1px solid #ddd;padding:10px 0" class="row">
+                                <div class="col-md-2">
+                                    Price:
+                                </div>
+                                <div class="col-md-10">
+                                    <span style="text-align:right;float:right">
+                                        @ViewBag.formattedPrice
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div style="padding:10px 0" class="row">
+                                <div class="col-md-2">
+                                    Total:
+                                </div>
+                                <div class="col-md-10">
+                                    <span style="text-align:right;float:right">
+                                        @ViewBag.formattedPrice
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div style="padding:15px 0" class="row">
+                                <div class="col-md-12">
+                                    <button id="payNowBtn" class="btn btn-block btn-primary"> Continue </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+<form id="subscribeForm" method="post">
+    <input type="hidden" name="cust_email" id="cust_email" />
+    <input type="hidden" name="cust_fname" id="cust_fname" />
+    <input type="hidden" name="cust_lname" id="cust_lname" />
+    <input type="hidden" name="cust_phone" id="cust_phone" />
+</form>
+
+
+
+
+@section scripts{
+
+    <script>
+
+        $(function () {
+
+            $("#payNowBtn").click(function (e) {
+                e.preventDefaut;
+                var $self = $(this),
+                    $form = $("#subscribeForm");
+                $self.attr("disabled", true).html("Please wait...");
+
+                $("#cust_email").val($("#email").val());
+                $("#cust_fname").val($("#firstName").val());
+                $("#cust_lname").val($("#lastName").val());
+                $("#cust_phone").val($("#phone").val());
+
+                $form.attr("action", "@Url.Action("InitTransaction", "billing")");
+                $form.submit();
+
+
+            });
+
+            
+        });
+
+    </script>
+
+
+}
+

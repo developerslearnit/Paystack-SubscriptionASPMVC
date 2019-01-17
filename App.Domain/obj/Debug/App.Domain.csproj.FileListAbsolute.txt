@@ -1,0 +1,17 @@
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\bin\Debug\App.Domain.dll.config
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\bin\Debug\App.Domain.dll
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\bin\Debug\App.Domain.pdb
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\bin\Debug\EntityFramework.dll
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\bin\Debug\EntityFramework.xml
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\obj\Debug\App.Domain.csprojAssemblyReference.cache
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\obj\Debug\App.Domain.csproj.CoreCompileInputs.cache
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\obj\Debug\App.Domain.csproj.CopyComplete
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\obj\Debug\App.Domain.dll
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\obj\Debug\App.Domain.pdb
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\obj\Debug\App.Domain.Migrations.InitialCreate.resources
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\obj\Debug\App.Domain.csproj.GenerateResource.cache
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\obj\Debug\App.Domain.Migrations.Modifiedtable.resources
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\obj\Debug\App.Domain.Migrations.Modifiedtable1.resources
+C:\dev\WebTuts\PaystackDirectDebit\App.Domain\obj\Debug\App.Domain.Migrations.Addedclientaccount.resources
